@@ -173,11 +173,21 @@ header nav a{
 
 
 .main-contant .left-contant{
-    padding-top: 1.5rem;
-    width: 40%;
+    width: 28%;
 }
 
 /* start of button part */
+
+.email-button{
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    overflow: hidden;
+    background-color: var(--white);
+    border: 1px solid var(--white2);
+    border-radius: 1rem;
+}
+
 .view-more{
     display: flex;
     justify-content: center;
@@ -191,30 +201,8 @@ header nav a{
     background-color: var(--black);
     color: var(--white);
 }
-.email-button{
-    display: flex;
-    width: 60%;
-    height: 3.5rem;
-    overflow: hidden;
-    background-color: var(--white);
-    border: 1px solid var(--white2);
-    border-radius: 1rem;
-}
 
 
-.email-button .input{
-    background-color: var(--white);
-    border: none;
-    flex-grow:1;
-}
-
-.email-button input{
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding-left: 1rem;  
-}
 
 .email-button .button{
    display: flex;
@@ -223,17 +211,32 @@ header nav a{
 }
 
 .email-button button{
-    margin-right: 1rem;
+    margin-left: 1rem;
     width: 100%;
     height: auto;
-    background-color: rgb(17, 18, 18);
+    background-color: rgb(84, 167, 167);
 }
 
+.email-button .rent-btn{
+    background-color: var(--white);
+    color: var(--black);
+}
 /* end of button part */
-
+.slide-bar {
+    padding-top: 1rem;
+}
 .slide-bar .squre{
     display: flex;
     gap: 1%;
+}
+
+.left-contant h3{
+    font-weight: var(--font-weight1);
+    padding-bottom: 1rem;
+}
+
+.left-contant p{
+    font-weight: var(--font-weight1);
 }
 
 .slide-bar .squre1{
@@ -248,7 +251,6 @@ header nav a{
     display: flex;
     align-items: center;
 }
-
 
 
 .range .line1{
@@ -288,12 +290,23 @@ header nav a{
     border-radius: 1rem;
 }
 
+.range .price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.range span{
+    color: var(--gray);
+}
+
+
 
 /* start left content */
 /* start of all property list part */
 
 .right-contant{
-    width: 60%;
+    width: 67.5%;
 }
 
 .property-body{
