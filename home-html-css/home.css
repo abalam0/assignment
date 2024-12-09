@@ -329,9 +329,12 @@ header nav a{
     margin-bottom: var(--medium2);
 }
 
+
 .list-text h2{
-    font-size: var(--medium1);
+    font-size:var(--x-small2) ;
+    width: 50%;
 }
+
 
 .list-text p{
     width: 45%;
@@ -340,10 +343,6 @@ header nav a{
 }
 
 
-.list-text h2{
-    font-size:var(--x-small2) ;
-    width: 50%;
-}
 
 .img-link{
     text-wrap: wrap;

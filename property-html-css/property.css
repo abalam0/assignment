@@ -163,13 +163,18 @@ header nav a{
 
 /* start css of main contant part */
 
+
 .main-contant{
-    margin-top: 4rem;
+    margin-top:4rem;
+    display: flex;
+    gap: 5%;
 }
+
 
 
 .main-contant .left-contant{
     padding-top: 1.5rem;
+    width: 40%;
 }
 
 /* start of button part */
@@ -284,7 +289,152 @@ header nav a{
 }
 
 
+/* start left content */
+/* start of all property list part */
+
+.right-contant{
+    width: 60%;
+}
+
+.property-body{
+    margin-bottom: 6rem;
+}
+
+.all-property{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
 
 
+
+.property1{
+    width: 49%;
+    margin-bottom: 1.5rem;
+}
+
+
+.property3,.property6,.property9{
+    display: none;
+}
+
+
+
+.img-link{
+    text-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.img-link  img{
+    width: 100%;
+}
+
+.img-link .link{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2%;
+    text-wrap: nowrap;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-top:1rem;
+    padding-right: 1rem;
+}
+
+
+
+.link a{
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    transition:  color 0.5s ease , background-color 0.4s ease;
+}
+
+/* hover start */
+.link a:hover{
+    background-color: var(--white2);
+    color: var(--red);
+}
+
+/* hover end */
+
+/* start down text */
+.property1 .down-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.down-text p{
+    color: var(--gray);
+}
+
+.left-text{
+   line-height: 2;
+}
+
+.left-text .location{
+     display: flex;
+     align-items: center;
+}
+
+.location p{
+    margin-left: var(--location-gap);
+}
+
+.right-text{
+    line-height: 2;
+}
+
+hr{
+    color: var(--white2);
+}
+/* end down text */
+
+/* start property details part */
+.property-details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 5%;
+}
+
+.bath{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--gray-dark);
+    gap: 2%;
+}
+
+
+
+.bath-hr{
+    border: 1px solid var(--white2);
+    height: 20px;
+}
+
+
+.view-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+/* end property details part */
+/* end of all property list part */
+/* end left contant */
 
 /* end css of main contant part */
