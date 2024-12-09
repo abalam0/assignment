@@ -227,7 +227,7 @@ header nav a{
 }
 .slide-bar .squre{
     display: flex;
-    gap: 1%;
+    gap: 3%;
 }
 
 .left-contant h3{
@@ -451,3 +451,91 @@ hr{
 /* end left contant */
 
 /* end css of main contant part */
+
+
+/* start of footer part */
+
+footer{
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: 5rem;
+    margin-top: 4rem;
+}
+
+.footer-body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.information span{
+    color: var(--gray4);
+}
+
+.left-info{
+    width: 46.68%;
+}
+
+.left-info h3{
+    font-size: var(--x-small1);
+    font-weight: var(--font-weight1);
+}
+
+.address{
+    display: flex;
+    gap: 3%;
+    margin-top: 3rem;line-height: 2;
+}
+
+.right-info{
+    width: 24%;
+    gap: 3%;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-info a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--white1);
+    text-decoration: none;
+}
+
+.all-links .flink{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-text p{
+    color: var(--white);
+}
+
+
+footer .back-arrow svg {
+    margin-left: 0.5rem;
+}
+
+
+/* end of footer part */

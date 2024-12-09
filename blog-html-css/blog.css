@@ -320,7 +320,7 @@ header nav a{
 }
 
 .article1 p{
-    margin-top: 1rem;
+    margin-top:1rem;
     margin-bottom: 1rem;
     color: var(--gray);
     line-height: 1.5;
@@ -345,37 +345,59 @@ header nav a{
 /* start css of communicate part */
 .communicate-section{
     width: 97%;
-    height:3% ;
     margin: 0 auto;
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .communicate-part {
     position: relative;
+    height: 33rem;
+    border: 1rem;
 }
+
 
 .contact-img{
     position: relative;
     width: 100%;
-    height:31rem;
+    height:33rem;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
-/* .contact-img::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height:300% ;
-    background: black;
-} */
 
-.communicate-part img{
+.communicate-part .contact-img img{
     width: 100%;
     height: 100%;
+
 }
+
+
+
+
+
+.contact-img::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+    background: rgb(19, 18, 18);
+    opacity: 70%;
+}
+
+
+
+
+
 
 .text-button{
     transform: translate(30% , 40%);
     position: absolute;
+    z-index: 1;
+    color: var(--white);
     top: 0;
     width: 60%;
     margin: 0 auto;

@@ -283,10 +283,129 @@ header nav a{
 
 
 
+/* start css of communicate part */
+.communicate-section{
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.communicate-part {
+    position: relative;
+    height: 33rem;
+    border: 1rem;
+}
+
+
+.contact-img{
+    position: relative;
+    width: 100%;
+    height:33rem;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.communicate-part .contact-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+.contact-img::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+    background: rgb(19, 18, 18);
+    opacity: 70%;
+}
+
+
+
+
+
+
+.text-button{
+    transform: translate(30% , 40%);
+    position: absolute;
+    z-index: 1;
+    color: var(--white);
+    top: 0;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-button h6{
+    font-size: var(--medium2);
+}
+
+.text-button p{
+    font-size: var(--x-small3);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.email-button{
+    display: flex;
+    width: 60%;
+    height: 3.5rem;
+    overflow: hidden;
+    background-color: var(--white);
+    border-radius: 1rem;
+}
+
+
+.email-button .input{
+    background-color: var(--white);
+    border: none;
+    flex-grow:8;
+}
+
+.email-button input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 1rem;  
+}
+
+.email-button .button{
+   display: flex;
+   align-items: center;
+    flex-grow: 1;
+}
+
+.email-button button{
+    margin-right: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(17, 18, 18);
+}
+
+
+/* end css of communicate part */
+
+
+
 
 /* start of footer part */
 
 footer{
+    margin-top: 4rem;
     background-color: var(--black);
     color: var(--white);
     padding-top: 5rem;
