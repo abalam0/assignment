@@ -152,9 +152,39 @@ nav a:hover::after{
 }
 
 
- .three-dot{
+ .three-dot svg{
     display: none;
 }
 
 /* end hover and animation */
 /* end css of header */
+
+
+
+
+
+
+    /* start css for Medium devices (tablets) */
+    @media only screen and (min-width: 0px) and (max-width: 576px) {
+
+
+        nav{
+            position: absolute;
+            align-items: center;
+            top: 7rem;
+            left: 42%;
+        }
+
+        nav .nav-bat
+
+        .contact-btn{
+            display: none;
+        }
+
+        .three-dot {
+            display: block;
+        }
+        .three-dot i{
+            display: block;
+        }
+    }
