@@ -693,7 +693,7 @@ footer{
 }
 
 
-footer .logo-name{
+footer .logo-name p{
     color: var(--white);
 }
 
