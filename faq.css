@@ -265,7 +265,7 @@ header .contact-btn button{
     background-color: var(--white4);
     border-radius: 1rem;
     overflow: hidden;
-    width: 0.1rem;
+    width: 0.2rem;
     height: 100%;
 }
 
@@ -306,12 +306,26 @@ header .contact-btn button{
     width: 60%;
 }
 
+
+.h5-text{
+    background-color: var(--white2);
+    border-radius: 0.5rem;
+}
+
 .only-texts h5{
     font-size: var(--x-small3);
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
     font-weight: var(--font-weight1);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.h5-text p{
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
 .only-texts i{
@@ -325,6 +339,8 @@ header .contact-btn button{
    display: flex;
    justify-content: space-between;
    line-height: 1.5;
+   padding-left: 1rem;
+   padding-right: 1rem;
 }
 /* end of details part */
 
@@ -642,7 +658,7 @@ footer .right-info a:hover{
 
 
     /*  start css for mobail */
-    @media only screen and (min-width: 0px) and (max-width: 575.98px){
+    @media only screen and (min-width: 0px) and (max-width: 766.98px){
 
 
     .side-gap{

@@ -351,6 +351,18 @@ header .contact-btn button{
 }
 
 
+
+/* end of bank part */
+
+
+/* start of testimonial part */
+
+.testi-section{
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: #F4F4F5;
+}
+
 .bank-texts{
     padding-top: 6rem;
     margin-bottom: 4rem;
@@ -374,13 +386,6 @@ header .contact-btn button{
     margin-bottom: 5rem;
     border: 1px solid var(--white2);
 }
-
-/* end of bank part */
-
-/* start of testimonial part */
-
-
-
 .texts-image{
     width: 100%;
     display: flex;
@@ -764,7 +769,7 @@ footer .right-info a:hover{
 
 
     /*  start css for mobail */
-    @media only screen and (min-width: 0px) and (max-width: 575.98px){
+    @media only screen and (min-width: 0px) and (max-width: 766.98px){
 
 
         .side-gap{
